@@ -1,0 +1,29 @@
+.productList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.product-card{
+    border: 1px solid rgb(106, 40, 106);
+    gap: 2rem;
+    
+}
+
+.product-img{
+    width: 100%;
+    border: 1px solid rgb(106, 40, 106);
+    img{
+        width: 100%;
+    }
+}
+.product-action{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border:1px solid rgb(106, 40, 106) ;
+
+    button{
+        margin: 1rem;
+        padding: 1rem;
+    }
+}

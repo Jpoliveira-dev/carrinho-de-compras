@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    scroll-behavior:smooth;
+} 
+ /*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Paleta */
+
+:root{
+    --color-01: #ffff;
+}
+
+body{
+    color: black;
+
+}
+nav{
+    position: fixed;
+    padding: 0.5rem 4rem;
+    background-color: rgb(49, 15, 81);
+    width: 100%;
+    .links{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        a{
+            color: antiquewhite;
+            text-decoration: none;
+        }  
+    }
+}
+main{
+    min-height: 100vh;
+    padding: 2rem 4rem;
+}
+
+footer{
+    min-height: 16px;
+    background-color: blueviolet;
+}
