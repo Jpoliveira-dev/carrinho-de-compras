@@ -1,29 +1,51 @@
-.productList{
+#sectionProducts{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 }
 .product-card{
-    border: 1px solid rgb(106, 40, 106);
-    gap: 2rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: all 0.3s;
+
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 1rem 0.1 black;
+    }
     
 }
 
 .product-img{
+    display: flex;
     width: 100%;
-    border: 1px solid rgb(106, 40, 106);
     img{
         width: 100%;
     }
 }
+.product-info{
+    padding: 1rem;
+
+    p{
+        margin: 1rem 0;
+    }
+}
 .product-action{
     display: flex;
-    width: 100%;
     justify-content: space-between;
-    border:1px solid rgb(106, 40, 106) ;
+    padding: 1rem;
 
     button{
-        margin: 1rem;
-        padding: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(119, 18, 148);
+        border: none;
+        cursor:pointer;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        transition: all 0.3s;
+
+        &:hover{
+            filter: brightness(1.1);
+        }
     }
 }

@@ -23,6 +23,7 @@ body{
 }
 nav{
     position: fixed;
+    z-index: 100;
     padding: 0.5rem 4rem;
     background-color: rgb(49, 15, 81);
     width: 100%;
@@ -43,6 +44,8 @@ main{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
     min-height: 16px;
     background-color: blueviolet;
 }
